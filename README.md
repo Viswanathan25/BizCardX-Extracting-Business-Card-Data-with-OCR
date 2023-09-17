@@ -8,6 +8,9 @@ The EasyOCR package can be installed with a single pip command.
 The dependencies on the EasyOCR package are minimal, making it easy to configure your OCR development environment.
 Once EasyOCR is installed, only one import statement is required to import the package into your project.
 From there, all you need is two lines of code to perform OCR — one to initialize the Reader class and then another to OCR the image via the readtext function.
+
+![overview](https://github.com/Viswanathan25/BizCardX-Extracting-Business-Card-Data-with-OCR/assets/131848906/f3e5bfae-7505-4914-8e55-2a8a2ceae220)
+
 ## Project Overview
 BizCardX is a user-friendly tool for extracting information from business cards. The tool uses OCR technology to recognize text on business cards and extracts the data into an SQL database after classification using regular expressions. Users can access the extracted information using a GUI built using Streamlit. The BizCardX application is a simple and intuitive user interface that guides users through the process of uploading the business card image and extracting its information. The extracted information would be displayed in a clean and organized manner, and users would be able to easily add it to the database with the click of a button. Further, the data stored in the database can be easily read, updated, and deleted by the user as per the requirement.
 
